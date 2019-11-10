@@ -12,6 +12,10 @@ body{
 	margin: 0 auto;
 }
 
+
+/*[class*"col-"]{
+	float: left;
+}*/
 .col-md-3,
 .col-md-6{
 	float: left;
@@ -30,3 +34,9 @@ body{
 	clear: both;
 	display: block;
 }
+
+.header{
+	background-color: rgba(255, 255, 255, 0.75);
+	padding: 25px 0px;
+}
+
